@@ -1,0 +1,176 @@
+body {
+  background-image: url("assets/videogame.jpg");
+  background-size:cover;
+}
+
+
+  .form-group {
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 600px;
+    padding: 25px;
+  }
+  
+  .title {
+    margin: 10px auto;
+    text-align: center;
+    color:#fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-shadow: 1px 2px #bababa;
+     text-align:center;
+  }
+  
+  /*#a1,#a2,#a3,#a4 {display:none;}*/
+
+  .question {
+    color:#fff;
+  }
+
+  .next {
+    min-width:200px;
+    display:block;
+    margin: 0px auto;
+    background: transparent;
+    border: 1px solid #fff;
+    color:#fff;
+  }
+
+
+  
+  header {
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5em;
+    margin: 0;
+    color: #247BA0;
+  }
+  
+  header p {
+    color: #888;
+  }
+  
+  form {
+    width: 100%;
+    margin: 3em auto 1em;
+    height: 300px;
+  }
+  
+  .form-quiz-group {
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 1.5em 2.5em 3em;
+    border-radius: 5px;
+    margin: 0 auto 10px;
+    display: none;
+  }
+  
+  .active-group {
+    display: block;
+    border-radius: 0px;
+    background: transparent;
+    border: 3px solid #fff;
+    color:#fff;
+  }
+  
+  .quiz-score {
+    background-color: #f3f3f3;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    text-align: center;
+    border-radius:0px;
+    padding:100px;
+
+  }
+  
+  /*.quiz-score-message {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    margin: 0;
+    color: #247BA0;
+  }*/
+  
+  .form-quiz-group-question {
+    line-height: 1.7;
+    color: #333
+  }
+  
+  .form-quiz-group-option {
+    margin: 10px;
+  }
+  
+  .form-quiz-group-label {
+    color: #565656;
+    list-style-type: none;
+  }
+  
+  .form-quiz-next,
+  .form-quiz-prev{
+    background-color:transparent;
+    padding: 7px 14px;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid #fff;
+  }
+  
+  .form-quiz-next {
+    float: right;
+  }
+
+ .congrats {
+   text-align:center;
+   color:black;
+   font-size:40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+/* new */
+
+.bio {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.bio p {
+  color: black;
+  display:inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  transform: translateX(100%);
+  white-space: nowrap;
+}
+.text-moving2 {
+  animation: moveText linear 8s forwards infinite;  
+}
+@keyframes moveText {
+	from { transform: translateX(100%); }
+	to { transform: translateX(-150%); }
+} 
+
+.red {
+  color: red;
+}
+.blue {
+  color:blue;
+}
+
+.purple {
+  color:blueviolet;
+}
+
+.green {
+  color: green;
+}
+ 
