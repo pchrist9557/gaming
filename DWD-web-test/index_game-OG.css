@@ -1,0 +1,28 @@
+body {
+  background-image: url("assets/wallpaper-2.jpg");
+  background-size:cover;
+ }
+
+.title {
+color:black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight:bold;
+text-transform:uppercase;
+text-shadow: 1px 2px #404040;
+text-align:center;
+margin-top:35%;
+font-size:60px;
+}
+
+.btn-title {
+  display:block;
+  margin:0px auto;
+  min-width:200px;
+  text-transform:uppercase;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size:20px;
+  font-weight:bold;
+  border: 1px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
